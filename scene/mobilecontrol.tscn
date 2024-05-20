@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxrael7g7oxtm"]
+
+[ext_resource type="Texture2D" uid="uid://dg8jb4of8trpv" path="res://asset/sprites/arrow.png" id="1_fhylg"]
+
+[node name="Mobilecontrol" type="CanvasLayer"]
+
+[node name="left" type="TouchScreenButton" parent="."]
+modulate = Color(1, 1, 1, 0.360784)
+position = Vector2(9, 545)
+scale = Vector2(3.03125, 2.84375)
+texture_normal = ExtResource("1_fhylg")
+passby_press = true
+action = "left"
+
+[node name="right" type="TouchScreenButton" parent="."]
+modulate = Color(1, 1, 1, 0.360784)
+position = Vector2(237, 635)
+rotation = -3.14069
+scale = Vector2(2.9375, 2.65625)
+texture_normal = ExtResource("1_fhylg")
+passby_press = true
+action = "right"
+
+[node name="jump" type="TouchScreenButton" parent="."]
+modulate = Color(1, 1, 1, 0.360784)
+position = Vector2(1067, 543)
+rotation = 1.57821
+scale = Vector2(2.71875, 2.46875)
+texture_normal = ExtResource("1_fhylg")
+passby_press = true
+action = "jump"
+
+[node name="slide" type="TouchScreenButton" parent="."]
+position = Vector2(0, -3)
